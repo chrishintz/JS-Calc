@@ -2,6 +2,7 @@
   border: 1px solid black;
   margin-top: 20px;
   background-color: #535353;
+  padding: 10px;
 }
 
 .title {
@@ -43,6 +44,7 @@
   width: 7%;
   margin: 0 2.5%;
   background-color: #f88e11;
+  text-align: center;
 }
 
 .button-panel-6 {
@@ -53,9 +55,11 @@
 .calculate {
   background-color: #6b9d28;
   color:white;
+  margin-bottom: 10px;
 }
 
 .clear {
   background-color: #c9151b;
   color:white;
+  margin-bottom: 10px;
 }
