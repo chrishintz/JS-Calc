@@ -3,8 +3,28 @@
   <head>
     <meta charset="utf-8">
     <title>Calculator</title>
+    <script src="/calculator.js"></script>
   </head>
   <body>
-    <h1>Hello World</h1>
+    <h1>JavaScript Calculator</h1>
+    <div id="answer" class="answer">
+      0
+    </div>
+    <form id="calculator">
+      <div>
+        <input id="firstNum" name ="firstNum" type="text"/>
+        <select id="operator" name="operator">
+          <option id="add">+</option>
+          <option id="subtract">-</option>
+          <option id="multiply">x</option>
+          <option id="divide">/</option>
+        </select>
+        <input id="secNum" name="secNum" type="text"/>
+          <div>
+            <button>Calculate</button>
+            <input type="reset"></input>
+        </div>
+      </div>
+    </form>
   </body>
 </html>
