@@ -2,7 +2,6 @@
   border: 1px solid black;
   margin-top: 20px;
   background-color: #535353;
-  padding: 10px;
 }
 
 .title {
@@ -12,7 +11,7 @@
 
 .answer {
   border: 2px inset;
-  margin-bottom: 10px;
+  margin: 0 2% 2%;
   text-align: center;
   font-family: 'orbitron';
   font-size: 48 !important;
@@ -24,20 +23,18 @@
   margin: 0 5px;
 }
 
-.boxes:first-child {
-  margin-left: 0;
-}
-
 .boxes:last-child {
-  margin-right: 0;
+  margin-right: 10px;
 }
 
 .box-panel-5 {
-  width: 44%;
+  width: 40%;
   font-family: 'orbitron';
   text-align: right;
   font-weight: 600;
   background-color: #ccc;
+  margin-left: 2%;
+  margin-right: 2%;
 }
 
 .operator {
@@ -48,18 +45,18 @@
 }
 
 .button-panel-6 {
-  width: 49%;
+  width: 46%;
   margin-top: 10px;
 }
 
 .calculate {
   background-color: #6b9d28;
   color:white;
-  margin-bottom: 10px;
+  margin: 2%;
 }
 
 .clear {
   background-color: #c9151b;
   color:white;
-  margin-bottom: 10px;
+  margin: 2%;
 }
