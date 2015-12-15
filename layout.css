@@ -1,0 +1,61 @@
+.container {
+  border: 1px solid black;
+  margin-top: 20px;
+  background-color: #535353;
+}
+
+.title {
+  text-align: center;
+  color: white;
+}
+
+.answer {
+  border: 2px inset;
+  margin-bottom: 10px;
+  text-align: center;
+  font-family: 'orbitron';
+  font-size: 48 !important;
+  font-weight: 600;
+  background-color: #B8C6A3;
+}
+
+.boxes {
+  margin: 0 5px;
+}
+
+.boxes:first-child {
+  margin-left: 0;
+}
+
+.boxes:last-child {
+  margin-right: 0;
+}
+
+.box-panel-5 {
+  width: 44%;
+  font-family: 'orbitron';
+  text-align: right;
+  font-weight: 600;
+  background-color: #ccc;
+}
+
+.operator {
+  width: 7%;
+  margin: 0 2.5%;
+  background-color: #f88e11;
+}
+
+.button-panel-6 {
+  width: 49%;
+  margin-top: 10px;
+}
+
+.calculate {
+  background-color: #6b9d28;
+  color:white;
+}
+
+.clear {
+  background-color: #c9151b;
+  color:white;
+}

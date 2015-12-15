@@ -4,25 +4,36 @@
     <meta charset="utf-8">
     <title>Calculator</title>
     <script src="/calculator.js"></script>
+    <link rel="stylesheet" href="/layout.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="/bootstrap.css" media="screen" title="no title" charset="utf-8">
+    <link rel="stylesheet" href="https://www.google.com/fonts#UsePlace:use/Collection:Orbitron" type="text/css" charset="utf-8">
   </head>
   <body>
-    <h1>JavaScript Calculator</h1>
-    <div id="answer" class="answer">
-      0
-    </div>
-    <form id="calculator">
-      <div class="inputs">
-        <input id="firstNum" name ="firstNum" type="text"/>
-        <select id="operator" name="operator" type="text">
-          <option>+</option>
-          <option>-</option>
-          <option>x</option>
-          <option>/</option>
-        </select>
-        <input id="secondNum" name="secondNum" type="text"/>
-        <button>Calculate</button>
+    <div class="container">
+      <h1 class="title">JavaScript Calculator</h1>
+      <div class="row">
+        <div id="answer" class="answer">
+          0
+        </div>
       </div>
-    </form>
-    <button id="clear">Clear</button>
+        <div class="row">
+          <form id="calculator">
+            <div class="inputs">
+              <input id="firstNum" name ="firstNum" type="text" class="box-panel-5 pull-left"/>
+              <select id="operator" name="operator" type="text" class="operator">
+                <option>+</option>
+                <option>-</option>
+                <option>x</option>
+                <option>/</option>
+              </select>
+              <input id="secondNum" name="secondNum" type="text" class="box-panel-5 pull-right"/>
+            </div>
+          </div>
+            <div class="row">
+              <button class="button-panel-6 pull-left calculate">Calculate</button>
+              <button id="clear" class="button-panel-6 pull-right clear">Clear</button>
+            </div>
+          </form>
+      </div>
   </body>
 </html>
