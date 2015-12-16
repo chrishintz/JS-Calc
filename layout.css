@@ -60,3 +60,34 @@
   color:white;
   margin: 2%;
 }
+
+.operator {
+  background-color: #FF9500;
+}
+
+.single-button {
+  margin: 2px;
+  text-align: center;
+  /*background-color: #F7F7F7;*/
+}
+
+.wipe {
+  background-color: #C7C7CC;
+}
+
+.container2 {
+  /*border: 1px solid black;*/
+  margin-top: 20px;
+  background-color: #535353;
+}
+
+.top-line {
+  width: 69%;
+  margin-bottom: 5px;
+}
+
+.title2 {
+  text-align: left;
+  color: white;
+  margin-left: 0;
+}
